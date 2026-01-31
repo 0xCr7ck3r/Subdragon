@@ -31,6 +31,8 @@ cd Subdragon
 python3 -m venv venv
 source venv/bin/activate
 pip3 install .
+chmod +x subdragon.py
+sudo cp subdragon.py /usr/local/bin/subdragon
 
 ```
 
